@@ -26,3 +26,18 @@ Route::get('/welcome1', function () {
 Route::get('/welcome2', function () {
     return view('welcome');
 });   
+
+
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+
+
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+
+
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
