@@ -22,6 +22,13 @@ Route::get('login/{provider}', [SocialLoginController::class,'redirect']);
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/welcome-back', function () {
+    return view('welcome');
+});
 // Route::get('/adminlogin', [UserController::class, 'index']);
 Route::get('adminlogin',[LoginController::class,'adminlogin']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
