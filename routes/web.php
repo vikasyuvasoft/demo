@@ -26,7 +26,13 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 
+=======
+Route::get('/welcome-back', function () {
+    return view('welcome');
+});
+>>>>>>> child
 // Route::get('/adminlogin', [UserController::class, 'index']);
 Route::get('adminlogin',[LoginController::class,'adminlogin']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

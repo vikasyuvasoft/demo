@@ -18,8 +18,38 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+<<<<<<< HEAD
 Route::get('/welcome1', function () {
     return view('welcome');
 });   
 
 
+=======
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+Route::get('/welcome2', function () {
+    return view('welcome');
+});   
+>>>>>>> child
